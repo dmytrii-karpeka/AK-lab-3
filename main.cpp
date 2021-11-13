@@ -8,7 +8,7 @@ vector<string>* handled_options = new vector<string>();
 
 void Help()
 {
-    cout << "Use command and flags to access functionality such as './application [-_neededFlags_ *]' or 'command [--_neededFlags_ *]'." << endl;
+    cout << "Use command and flags to access functionality such as './command [-_neededFlags_ *]' or './command [--_neededFlags_ *]'." << endl;
 }
 
 void Version()
@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 {
     int current_option;
 
-    const char* short_options = "hvcri:s::";
+    const char* short_options = "hvi::";
 
     struct option long_options[] = {
             {"help",    no_argument, nullptr, 'h'},
