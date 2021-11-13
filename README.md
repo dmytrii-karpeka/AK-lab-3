@@ -1,7 +1,9 @@
 # Laboratory work 3
 ---
-##Intro
+
+## Intro
 This command takes as input a string and return it in output
+
 ---
 ## Options
 ### -h or --help
